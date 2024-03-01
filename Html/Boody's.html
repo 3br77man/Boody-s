@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boody's Shop</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="../CSS/App.css">
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">Boody'sShop</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">+0237142410</a>
+                        </li>
+                        <li>
+                            <a href="#">pong.xio@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="devided">
+                        <li class="dropdown">
+                            <a href="">USD</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">EUR</a></li>
+                                <li><a href="#">POUND</a></li>
+                                <li><a href="#">EGP</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="">ENGLISH</a>
+                            <i class='bx bxs-chevron-down'></i> 
+                            <ul class="dropdown-content">
+                                <li><a href="#">GARMIN</a></li>
+                                <li><a href="#">FRENCH</a></li>
+                                <li><a href="#">SPANISH</a></li>
+                                <li><a href="#">ARABIC</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">ORDER TRACKING</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+
+
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="#" class="logo">Boody'sShop</a>
+                    <div class="search">
+                        <input type="text" placeholder="Search">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+
+            
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="#">home</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Shop<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Computers</h3>
+                                            <ul>
+                                                <li><a href="#">PC</a></li>
+                                                <li><a href="#">Desktop</a></li>
+                                                <li><a href="#">Laptop</a></li>
+                                                <li><a href="#">All in one</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Sound</h3>
+                                            <ul>
+                                                <li><a href="#">Wireless</a></li>
+                                                <li><a href="#">Inear headphone</a></li>
+                                                <li><a href="#">Overear headphone</a></li>
+                                                <li><a href="#">Sport headphone</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Apple</h3>
+                                            <ul>
+                                                <li><a href="#">iMac</a></li>
+                                                <li><a href="#">Macbook</a></li>
+                                                <li><a href="#">iPhone</a></li>
+                                                <li><a href="#">iPod</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Accessories</h3>
+                                            <ul>
+                                                <li><a href="#">Hard Disk</a></li>
+                                                <li><a href="#">Mouse & Keyboard</a></li>
+                                                <li><a href="#">Mouse Pad</a></li>
+                                                <li><a href="#">Controller & Gaming</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../Images/Laptop-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../Images/JBL_E55BT_KEY_RED_6063_FS_x1-1605x1605px.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../Images/refurb-2013-imac-215-gallery-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="../Images/keyboard-and-mouse-buying-guide-e1584743869980-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Dell G15-5520
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Next-gen gaming
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Dell G15-5520 Gaming Laptop - 12th Intel Core i7-12700H 14-Cores, 16GB RAM DDR5 4800 MHz, 512GB SSD, NVIDIA Geforce RTX3060 6GB GDDR6 Graphics, 15.6" FHD 120Hz, Backlit Keyboard, UBUNTU, Shadow Grey                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="../Images/Laptop-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                JBL Quantum ONE
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Wired gaming headphones
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                They’re the current flagship model of JBL’s range of Quantum-branded gaming headsets and have quite a bit in common with the JBL Quantum 800 Wireless and wired-only JBL Quantum 400, with the main difference being the inclusion of the QuantumSphere 360 virtual surround sound feature. They aren’t an especially versatile pair of headphones when it comes to casual use, but they do feature a range of gaming-oriented configuration options in the feature-packed JBL Quantum Engine app. They also have a very well-balanced sound profile as well as a detachable boom microphone that offers a good overall performance.                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="../Images/JBL_E55BT_KEY_BLACK_6175_FS_x1-1605x1605px.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                iPhone 15 Pro
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Titanium experience
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars.A17 Pro is an entirely new class of iPhone chip that delivers our best graphics performance by far.
+
+                                Mobile games will look and feel so immersive, with incredibly detailed environments and more realistic characters. And with industry-leading speed and efficiency, A17 Pro takes fast and runs with it.                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>shop now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="../Images/VPZ18_SQ1_0000000004_BLACK_SLf.jpeg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+            </div>
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+            <!-- end slider controller -->
+        </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- promotion section -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>MacBook Pro Apple M1</h3>
+                        <button class="btn-flat btn-hover"><span>shop collection</span></button>
+                    </div>
+                    <img src="../Images/refurb-mbp13-silver-m1-2020_AV3-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>JBL Quantum Series</h3>
+                        <button class="btn-flat btn-hover"><span>shop collection</span></button>
+                    </div>
+                    <img src="../Images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>True Wireless Earbuds</h3>
+                        <button class="btn-flat btn-hover"><span>shop collection</span></button>
+                    </div>
+                    <img src="../Images/JBL_TUNE220TWS_ProductImage_Pink_ChargingCaseOpen.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end promotion section -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest product</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="../Images/ir_startframe__c5rzvbueg3ee_large-removebg-preview.png" alt="" class="vigion">
+                            <img src="../Images/apple-vision-removebg-preview.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                Apple Vision Pro 
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$ 1500</del></span>
+                                <span class="curr-price">$1200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- special product -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row">
+                <div class="col-4 col-md-4">
+                    <div class="sp-item-img">
+                        <img src="../Images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                    </div>
+                </div>
+                <div class="col-7 col-md-8">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">JBL TUNE 750TNC</div>
+                        <p class="sp-item-description">
+                            JBL TUNE 750BTNC wireless headphones feature powerful JBL Pure Bass Sound and active noise cancelling for punchy bass and an immersive audio experience
+                            The lightweight over-ear design offers maximum comfort and sound quality while ready to travel everywhere you go with its compact foldable competence 15 hours </p>
+                        <button class="btn-flat btn-hover">shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end special product -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>best selling</h2>
+            </div>
+            <div class="row" id="best-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="../Images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="../Images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                JBL Quantum 400
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$300</del></span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- blogs -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>latest blog</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="../Images/JBL_Quantum400_Lifestyle1.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        JBL Quantum 400 also features
+                    </div>
+                    <div class="blog-preview">
+                        a voice focus boom mic for clear multiplayer interactions, a game-chat balance dial, is certified for DISCORD, and compatible with TeamSpeak and more.
+                    </div>
+                    <button class="btn-flat btn-hover">read more</button>
+                </div>
+            </div>
+            <div class="blog row-revere">
+                <div class="blog-img">
+                    <img src="../Images/Apple-WWDC23-Vision-Pro-gestures-230605.jpg.large_2x.jpg" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Apple Vision Pro features
+                    </div>
+                    <div class="blog-preview">
+                        Apple's first 3D camera. You can capture magical spatial photos and spatial videos in 3D, then relive those cherished moments like never before with immersive Spatial Audio. Your existing library of photos and videos looks incredible at remarkable scale.
+                    </div>
+                    <button class="btn-flat btn-hover">read more</button>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="#" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end blogs -->
+
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Products</h3>
+                    <ul class="menu">
+                        <li><a href="#">PC</a></li>
+                        <li><a href="#">Phone</a></li>
+                        <li><a href="#">Headphones</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">services</h3>
+                    <ul class="menu">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">Supplier Responsibility</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">About Boody's</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            Boody'sShop     
+                        </h3>
+                        <ul class="contact-socials">
+                            <li><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <input type="email" placeholder="ENTER YOUR EMAIL">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="../JavaScript/Boody's.js"></script>
+
+</body>
+
+</html>
